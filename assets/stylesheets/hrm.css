@@ -1,0 +1,10 @@
+div.issue .hrm-issue-resource-problems {  }
+div.issue .gravatar-with-child { position:relative; min-height:52px; min-width:52px; margin-right:1rem; border-radius:52px; background-color:#ddd; }
+div.issue .gravatar-with-child img.gravatar:not(.gravatar-child) { display:block; line-height:50px; text-align:center; }
+div.issue .gravatar-with-child img.gravatar.gravatar-child { position:absolute; display:block; bottom:0; right:0; left:auto; overflow:hidden; }
+
+div.issue .gravatar-subject-hrm-resources { display:flex; align-items:center; justify-content:space-between; margin-bottom:1rem; }
+div.issue .gravatar-subject-hrm-resources .gravatar-subject-hrm-resources-item { flex-grow: 1; flex-shrink: 1; flex-basis: 0; }
+div.issue .gravatar-subject-hrm-resources .gravatar-subject { display:flex; align-items:center; }
+div.issue .gravatar-subject-hrm-resources .subject { padding-top:0; padding-bottom:0; }
+div.issue .gravatar-subject-hrm-resources .hrm-resources-container { padding-left:1rem; }

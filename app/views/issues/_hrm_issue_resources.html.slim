@@ -1,0 +1,10 @@
+- if hrm_show_resources_info_in_issue_view(@issue, @project)
+  - problem_list_elements = hrm_resource_problem_list_elements_for_issue_view(@issue, @hrm_issue_allocation_problems)
+  - if problem_list_elements.present?
+    hr
+    .hrm-issue-resource-problems
+      .label
+        = l(:label_hrm_resource_problems)
+      .value
+        ul
+          = problem_list_elements

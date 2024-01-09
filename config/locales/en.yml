@@ -1,0 +1,4 @@
+# English strings go here for Rails i18n
+en:
+  field_totalable: "Totalable?"
+  label_project_select_placeholder: "Please choose a project ..."
